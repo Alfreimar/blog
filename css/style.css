@@ -7,10 +7,18 @@ body{
     padding: 0;
 }
 
+#header{
+    background: #33D;
+    color: white;
+    margin: 0;
+    padding: 0.5em;
+    font-weight: bold;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+}
 #container{
 
     width: 70%;
-    padding: 1em;
+    padding: 10;
     text-align: left;
     border: 1px solid #ddd;
     margin: 0 auto;
@@ -18,4 +26,9 @@ body{
 
 #container h1{
     font-size: 20px;
+}
+
+#post{
+    padding: 1em;
+
 }
