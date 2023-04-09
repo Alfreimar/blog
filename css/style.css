@@ -22,7 +22,7 @@ body{
     vertical-align: middle;
 }
 #container{
-
+    background-color: white;
     width: 70%;
     padding: 10;
     text-align: left;
