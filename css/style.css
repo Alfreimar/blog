@@ -9,21 +9,19 @@ body{
 }
 
 #header{
-    background: #33D;
+    background: blue;
     color: white;
-    margin: 0;
+    margin: 2px;
     padding: 0.5em;
     font-weight: bold;
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
-#header #logo{
-    width: 20px;
-    vertical-align: middle;
-}
+
+
 #container{
     background-color: white;
-    width: 70%;
+    width: 95%;
     padding: 10;
     text-align: left;
     border: 1px solid #ddd;
@@ -31,7 +29,7 @@ body{
 }
 
 #container h1{
-    font-size: 20px;
+    font-size: 100px;
 }
 
 #post{
@@ -45,3 +43,32 @@ body{
     padding: 0.5em;
 
 }
+
+#carouselExampleSlidesOnly{
+    padding: 0.2em;
+}
+
+h2{
+    display: inline;
+    position: relative;
+    
+       }
+
+h2::after,h2::before{
+    content:'';
+    position:absolute;
+    width: 300PX;
+    height: 3PX;
+    background-color: blue;
+    top: 0.6em;
+}
+
+h2::before{
+    left: 710px;
+}
+
+
+h2::after{
+    right:710px;
+}
+
